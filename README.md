@@ -1,2 +1,2 @@
 # SnapBites
- Projeto interdisciplinar Gastronomia
+ Projeto interdisciplinar gastronomia / Fatec Matão
