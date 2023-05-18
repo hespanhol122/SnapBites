@@ -1,4 +1,10 @@
-h1{
+.fundo_txt{
+    background-color: white;
+    height: 200px;
+    width: 150px;
+}
+
+.fundo_txt h1{
     font-family: 'Space Grotesk', sans-serif;}
 
 .Texto_bemvindo{
