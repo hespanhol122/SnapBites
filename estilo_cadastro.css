@@ -96,6 +96,7 @@ body{
     -webkit-border-radius: 0px;
     border-radius: 10px;
     border-color: rgb(67, 202, 67);
+    color: white;
 }
 
 .img{
