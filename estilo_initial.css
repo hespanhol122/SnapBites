@@ -1,9 +1,8 @@
 .fundo_txt{
-    background-color: white;
+    background-color: hsla(0, 0%, 100%, 0.9);
     height: 300px;
     width: 500px;
     word-break:normal;
-    
 }
 
 h1{
@@ -13,7 +12,7 @@ h1{
 }
 
 .Texto_bemvindo{
-    background-color: white;
+    background-color: hsla(0, 0%, 100%, 0.9);
     font-family: 'Space Grotesk', sans-serif;
 }
 
