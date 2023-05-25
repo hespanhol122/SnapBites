@@ -29,15 +29,15 @@ body {
   }
   
   section.hero {
-    background-image: url("background.jpg");
+    background-color: rgb(247, 152, 63);
+    background-image: url();
     background-size: cover;
-    color: #fff;
     padding: 100px;
     text-align: center;
   }
   
   section.hero h2 {
-    font-size: 36px;
+    font-size: 42px;
     margin-bottom: 20px;
   }
   
@@ -89,7 +89,7 @@ body {
   footer p {
     margin: 0;
   }
-  /* Responsiveness */
+  /* Responsividades */
 @media screen and (max-width: 768px) {
     section.hero {
       padding: 60px;
