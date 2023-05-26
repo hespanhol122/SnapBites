@@ -1,18 +1,29 @@
+.cor1{
+  background-color: #1B6607;
+}
+
+.cor2{
+  background-color: #BCE6BA;
+}
+
+.cor3{
+  background-color: #E6D870;
+}
+
+.cor4{
+  background-color: #EF820A;
+}
+
+.cor5{
+  background-color: #E6AE73;
+}
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   margin: 0;
   padding: 0;
   min-width: 300px;
 }
-
-/*header {
-  display: flex;
-  background-color: #f2f2f2;
-  padding: 20px;
-  justify-content: left;
-  align-items: center;
-}*/
-
 
 h1 {
   margin: 0;
@@ -30,8 +41,6 @@ nav ul li a {
 }
 
 section.hero {
-  background-color: rgb(247, 152, 63);
-  background-image: url();
   background-size: cover;
   padding: 100px;
   text-align: center;
@@ -48,8 +57,8 @@ section.hero p {
 }
 
 a.btn {
-  background-color: #ff4500;
-  color: #fff;
+  background-color: #EF820A;
+  color: #000;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 4px;
@@ -67,7 +76,6 @@ section.featured h2 {
 
 section.sobre {
   padding: 40px;
-  background-color: #ff7645;
 }
 
 section.sobre p{
@@ -78,7 +86,6 @@ section.sobre p{
 
 section.sobre h3{
   padding-left: 15px;
-  margin-top: 22px;
 }
 
 .publi-container {
@@ -86,6 +93,7 @@ section.sobre h3{
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
+
 .publi-item img {
   width: 100%;
   height: auto;
@@ -99,6 +107,8 @@ section.sobre h3{
 .sobre-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15px;
+  justify-content: center;
 }
 
 .sobre-container img{
@@ -160,7 +170,7 @@ footer p {
 
   .sobre-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 }
 /* Responsividade */

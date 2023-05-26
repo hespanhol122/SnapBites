@@ -9,86 +9,85 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="estilo_login.css" rel="stylesheet">
+    <link href="CSS/estilo_login.css" rel="stylesheet">
 </head>
-<body background="Plano de fundo.svg">
-        
-        <style>
-          .bg-glass {
-            background-color: hsla(0, 0%, 100%, 0.9) !important;
-            backdrop-filter: saturate(200%) blur(25px);
-          }
-        </style>
-      
-        <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
-          <div class="row gx-lg-5 align-items-center mb-5">
-            <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
-            </div>
-      
-            <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
-              <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
-              <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
-      
-              <div class="card bg-glass">
-                <div class="card-body px-4 py-5 px-md-5">
-                    <!-- Caixa branca de fundo -->
-                    
-                    <div class="container">
-                      <div class="row marcador align-items-center">
-                        <div class="col mx-auto text-center">
-                          <img class="img-responsive" src="Logo.svg" height="160px" width="160px">
-                        </div>
-                      </div>
+<body background="imagens/Plano de fundo desktop.svg">   
+  <section>
+    <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
+      <div class="row gx-lg-5 align-items-center mb-5">
+        <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
+        </div>
+  
+        <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+          <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+          <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
+  
+          <div class="card bg-glass">
+            <div class="card-body px-4 py-5 px-md-5">
+                <!-- Caixa branca de fundo -->
+                
+                <div class="container">
+                  <div class="row marcador align-items-center">
+                    <div class="col mx-auto text-center">
+                      <a href="home.html">
+                        <img class="img-responsive" src="imagens/Logo.svg" height="160px" width="160px">
+                      </a>
                     </div>
-                    
-                    <div class="row">
-                      <div class="col-md-6 mb-4">
-                      <div class="col-md-6 mb-4">
-                        <div class="form-outline">
-                        </div>
-                      </div>
-                    </div>
-      
-                    <!-- Email -->
-                    <div class="form-outline mb-4">
-                      <input type="email" id="form3Example3" class="form-control" />
-                      <label class="form-label" for="form3Example3">Usuário</label>
-                    </div>
-      
-                    <!-- Senha -->
-                    <div class="form-outline mb-4">
-                      <input type="password" id="form3Example4" class="form-control" />
-                      <label class="form-label" for="form3Example4">Senha</label>
-                      <label class="btn-link btn-floating mx-1" for="form3Example4">(Esqueceu a senha?)</label>
-                    </div>
-    
-                    <!-- Botão de entrar -->
-                    <div class="text-center">
-                      <button class="btn btn-primary btn-color" type="button">Entrar</button>
-                    </div>
-                    <div class="form-outline mb-4"></div>
-      
-                    <!-- Outras opções de login -->
-                    <!-- <div class="text-center">
-                      <p>Entre com:</p>
-
-                      <button type="button" class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-facebook-f"></i>
-                      </button>
-      
-                      <button type="button" class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-google"></i>
-                      </button>
-      
-                      <button type="button" class="btn btn-link btn-floating mx-1">
-                        <i class="fab fa-twitter"></i>
-                    </div> -->
-                  </form>
+                  </div>
                 </div>
-              </div>
+                
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                    </div>
+                  </div>
+                </div>
+  
+                <!-- Email -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form3Example3" class="form-control" />
+                  <label class="form-label" for="form3Example3">Usuário</label>
+                </div>
+  
+                <!-- Senha -->
+                <div class="form-outline mb-4">
+                  <input type="password" id="form3Example4" class="form-control" />
+                  <label class="form-label" for="form3Example4">Senha</label>
+                </div>
+
+                <div class="form-outline mb-4">
+                  <label class="btn-link btn-floating mx-1" for="form3Example4">Esqueceu a senha?</label>
+                  <a href="cadastro.html" class="btn-link btn-floating mx-1" for="form3Example4">Cadastre-se</a>
+                </div>
+
+                <!-- Botão de entrar -->
+                <div class="text-center">
+                  <a class="btn btn-primary btn-color" type="button">Entrar</a>
+                </div>
+                <div class="form-outline mb-4"></div>
+  
+                <!-- Outras opções de login -->
+                <!-- <div class="text-center">
+                  <p>Entre com:</p>
+
+                  <button type="button" class="btn btn-link btn-floating mx-1">
+                    <i class="fab fa-facebook-f"></i>
+                  </button>
+  
+                  <button type="button" class="btn btn-link btn-floating mx-1">
+                    <i class="fab fa-google"></i>
+                  </button>
+  
+                  <button type="button" class="btn btn-link btn-floating mx-1">
+                    <i class="fab fa-twitter"></i>
+                </div> -->
+              </form>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
