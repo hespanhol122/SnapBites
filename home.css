@@ -151,10 +151,15 @@ footer p {
   }
   
   section.sobre p{
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .publi-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sobre-container {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
