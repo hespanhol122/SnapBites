@@ -10,20 +10,19 @@
 <body>
   <nav class="navbar fixed-top navbar-expand-md cor1">
       <div class="container-fluid">
-        <img src="imagens/Logo.svg"  height="65px" width="65px" style="margin-top: -15px;  margin-bottom: -15px;">
-          <a href="" class="navbar-brand">
-              
+          <a href="home.html" class="navbar-brand">
+            <img src="imagens/Logo.svg"  height="65px" width="65px" style="margin-top: -15px;  margin-bottom: -15px;">
           </a>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto" >
-                  <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Feed</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+                  <li class="nav-item"><a class="nav-link text-light active" href="#">Home</a></li>
+                  <li class="nav-item"><a class="nav-link text-light" href="#">Feed</a></li>
+                  <li class="nav-item"><a class="nav-link text-light" href="#">Sobre</a></li>
+                  <li class="nav-item"><a class="nav-link text-light" href="#">Contato</a></li>
               </ul>
               <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-                  <button class="btn btn-outline-dark" type="submit">Search</button>
+                <button class="btn btn-outline-dark" type="submit">Pesquisar</button>
               </form>
           </div>
       </div>
@@ -31,17 +30,16 @@
   
   <section class="hero cor5">
     <h1>Bem-vindo ao SnapBites</h2>
-    <p>Explore pratos deliciosos de todo o mundo.</p>
-    <a href="login.html" class="btn cor2"> Acessar o site</a>
+    <p>Explore e apresente pratos deliciosos</p>
+    <a href="login.html" role="button" data-bs-toggle="button" class="btn btn-dark"> Acessar o site</a>
   </section>
   
   <section class="featured">
     <h2>Publicações em destaque</h3>
     <div class="publi-container">
       <div class="publi-item">
-        <a href="">
+        <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off">
             <img src="imagens/lanche.jpg" alt="Prato 1">
-        </a>
       </div>
       <div class="publi-item">
         <a href="">

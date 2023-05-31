@@ -22,17 +22,25 @@ body {
     font-size: 24px;
     margin-bottom: 20px;
   }
-  
-  ul {
+  .container-int {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
     list-style-type: none;
     padding: 0;
     margin-bottom: 20px;
-}
-li {
+    
+  }
+  .cont-item {
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .cont-item label{
+    width: 150px;
+    height: 200px;
   }
   
   label {

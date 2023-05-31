@@ -18,32 +18,30 @@
   background-color: #E6AE73;
 }
 
+.itemnav{
+  color: white;
+}
+
 body {
   font-family: 'Space Grotesk', sans-serif;
   margin: 0;
   padding: 0;
   min-width: 300px;
-}
+} 
 
 h1 {
   margin: 0;
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #333;
+nav{
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 section.hero {
   background-size: cover;
   padding: 100px;
   text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 section.hero h1 {
@@ -67,6 +65,7 @@ a.btn {
 section.featured {
   padding: 40px;
   text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 section.featured h2 {
@@ -76,6 +75,7 @@ section.featured h2 {
 
 section.sobre {
   padding: 40px;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 section.sobre p{
