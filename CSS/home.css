@@ -1,3 +1,9 @@
+.alinhamento{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  background-image: url(imagens/Planodefundo.svg);
+}
+
 .cor1{
   background-color: #1B6607;
 }
@@ -16,6 +22,7 @@
 
 .cor5{
   background-color: #E6AE73;
+
 }
 
 .itemnav{
