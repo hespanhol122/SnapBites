@@ -29,6 +29,10 @@
   color: white;
 }
 
+.Contato h3{
+  font-size: 40px;
+}
+
 body {
   font-family: 'Space Grotesk', sans-serif;
   margin: 0;
