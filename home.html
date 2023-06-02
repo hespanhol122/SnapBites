@@ -18,7 +18,7 @@
                   <li class="nav-item"><a class="nav-link text-light active" href="#">Home</a></li>
                   <li class="nav-item"><a class="nav-link text-light" href="#">Feed</a></li>
                   <li class="nav-item"><a class="nav-link text-light" href="#">Sobre</a></li>
-                  <li class="nav-item"><a class="nav-link text-light" href="#">Contato</a></li>
+                  <li class="nav-item"><a class="nav-link text-light" href="#fale conosco">Contato</a></li>
               </ul>
               <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
@@ -70,9 +70,42 @@
       </div>
   </section>
 
-  <footer>
+  <section class="container" >
+    <h3 id="fale conosco" class="text-center">Fale-Conosco</h3>
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label">Nome</label>
+          <input placeholder="Nome e Sobrenome" type="text" class="form-control" id="validationTooltip01" value="" required>
+          <div class="valid-tooltip">
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltipUsername" class="form-label">E-mail</label>
+          <div class="input-group has-validation">
+            <input placeholder="exemplo@exemplo.com" type="email" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+            <div class="invalid-tooltip">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip03" class="form-label">Telefone</label>
+          <input placeholder="(XX) XXXXX-XXXX" type="text" class="form-control" id="validationTooltip03" required>
+          <div class="invalid-tooltip">
+          </div>
+        </div>
+        <div class="col-12 position-relative">
+          <label for="validationTooltip04" class="form-label">Assunto</label>
+          <textarea id="validationTooltip04" class="form-control"></textarea>
+        </div>
+        <div class="mb-3 btn-color">
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </div>
+      </form>
+  </section>
+
+ <footer>
     <p>&copy; 2023 SnapBites. Todos os direitos reservados.</p>
     Imagem de <a href="https://br.freepik.com/fotos-gratis/maos-femininas-tirando-foto-de-uma-pizza-fatiada-e-um-croissant-com-queijo_22892681.htm#query=fotografo%20comida&position=38&from_view=search&track=ais">Freepik</a>
-  </footer>
+ </footer>
 </body>
 </html>
