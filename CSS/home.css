@@ -48,6 +48,10 @@ nav{
   font-family: 'Space Grotesk', sans-serif;
 }
 
+.nav li:hover{
+  background-color: #BCE6BA;
+}
+
 section.hero {
   background-size: cover;
   padding: 100px;
