@@ -14,26 +14,23 @@
 
 <body>
   <nav class="navbar fixed-top navbar-expand-md cor1">
-    <div class="container-fluid">
-      <a href="home.html" class="navbar-brand">
-        <img src="imagens/Logo Fundo Branco.svg" height="65px" width="65px" style="margin-top: -15px;  margin-bottom: -15px;">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto nav">
-          <li class="nav-item"><a class="nav-link text-light  " href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link text-light" href="#">Feed</a></li>
-          <li class="nav-item"><a class="nav-link text-light" href="#sobre-nos">Sobre</a></li>
-          <li class="nav-item"><a class="nav-link text-light" href="#">Contato</a></li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
-          <button class="btn btn-light" type="submit"><img src="imagens/Bt-Search.svg" height="25px" width="25px" ></button>
-        </form>
+      <div class="container-fluid">
+          <a href="home.html" class="navbar-brand">
+            <img src="imagens/Logo.svg"  height="65px" width="65px" style="margin-top: -15px;  margin-bottom: -15px;">
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto" >
+                  <li class="nav-item"><a class="nav-link text-light active" href="#">Home</a></li>
+                  <li class="nav-item"><a class="nav-link text-light" href="#">Feed</a></li>
+                  <li class="nav-item"><a class="nav-link text-light" href="#">Sobre</a></li>
+                  <li class="nav-item"><a class="nav-link text-light" href="#">Contato</a></li>
+              </ul>
+              <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                <button class="btn btn-light" type="submit">Pesquisar</button>
+              </form>
+          </div>
       </div>
-    </div>
   </nav>
 
   <section class="hero alinhamento">
@@ -43,14 +40,14 @@
   </section>
 
   <section class="featured">
-    <h2>Publicações em destaque</h2>
-      <div class="publi-container">
-        <div class="publi-item">
-          <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off">
-          <img src="imagens/lanche.jpg" alt="Prato 1">
-        </div>
-        <div class="publi-item">
-          <a href="">
+    <h2>Publicações em destaque</h3>
+    <div class="publi-container">
+      <div class="publi-item">
+        <input type="checkbox" class="btn-check" id="btn-check-2" checked autocomplete="off">
+            <img src="imagens/lanche.jpg" alt="Prato 1">
+      </div>
+      <div class="publi-item">
+        <a href="">
             <img src="imagens/macarrao.jpg" alt="Prato 2">
           </a>
         </div>
@@ -63,28 +60,57 @@
   </section>
 
   <section class="sobre cor5">
-    <div class="sobre-container align-items-center cor5">
-      <div class="sobre-item">
-        <img src="imagens/maos-femininas-tirando-foto-de-uma-pizza-fatiada-e-um-croissant-com-queijo.jpg" alt="">
-      </div>
-      <div class="sobre-item">
-        <h3 id="sobre-nos">Sobre nós</h3>
-        <p>O SnapBites se trata de uma rede social de compartilhamento de fotos, videos e textos através de um feed de
-          postagens,
-          sendo limitada a quantidade de midias por postagens. Prezaremos pelo relacionamento entre os usuário por meios
-          de reações
-          as postagens e a possibilidade de um usuário seguir o outro. Descartamos as compras através do apicativo, a
-          aplicação
+      <div class="sobre-container cor5">
+        <div class="sobre-item">
+          <img src="imagens/maos-femininas-tirando-foto-de-uma-pizza-fatiada-e-um-croissant-com-queijo.jpg" alt="">
+        </div>
+        <div class="sobre-item">
+          <h3>Sobre nós</h3>
+          <p>O SnapBites se trata de uma rede social de compartilhamento de fotos, videos e textos através de um feed de postagens,
+          sendo limitada a quantidade de midias por postagens. Prezaremos pelo relacionamento entre os usuário por meios de reações
+          as postagens e a possibilidade de um usuário seguir o outro. Descartamos as compras através do apicativo, a aplicação
           será apenas para o usuário divulgar seu estabelecimento ou seu produto.
         </p>
       </div>
     </div>
   </section>
 
-  <footer>
+  <section class="container Contato">
+    <h3 id="fale conosco" class="text-center">Fale-Conosco</h3>
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label">Nome</label>
+          <input placeholder="Nome e Sobrenome" type="text" class="form-control" id="validationTooltip01" value="" required>
+          <div class="valid-tooltip">
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltipUsername" class="form-label">E-mail</label>
+          <div class="input-group has-validation">
+            <input placeholder="exemplo@exemplo.com" type="email" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+            <div class="invalid-tooltip">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip03" class="form-label">Telefone</label>
+          <input placeholder="(XX) XXXXX-XXXX" type="text" class="form-control" id="validationTooltip03" required>
+          <div class="invalid-tooltip">
+          </div>
+        </div>
+        <div class="col-12 position-relative">
+          <label for="validationTooltip04" class="form-label">Assunto</label>
+          <textarea id="validationTooltip04" class="form-control"></textarea>
+        </div>
+        <div class="mb-3">
+          <button class="botaoenviar btn btn-dark" type="submit">Enviar</button>
+        </div>
+      </form>
+  </section>
+
+ <footer>
     <p>&copy; 2023 SnapBites. Todos os direitos reservados.</p>
-    Imagem de <a
-      href="https://br.freepik.com/fotos-gratis/maos-femininas-tirando-foto-de-uma-pizza-fatiada-e-um-croissant-com-queijo_22892681.htm#query=fotografo%20comida&position=38&from_view=search&track=ais">Freepik</a>
+    Imagem de <a href="https://br.freepik.com/fotos-gratis/maos-femininas-tirando-foto-de-uma-pizza-fatiada-e-um-croissant-com-queijo_22892681.htm#query=fotografo%20comida&position=38&from_view=search&track=ais">Freepik</a>
   </footer>
 </body>
 

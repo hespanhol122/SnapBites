@@ -29,6 +29,10 @@
   color: white;
 }
 
+.Contato h3{
+  font-size: 40px;
+}
+
 body {
   font-family: 'Space Grotesk', sans-serif;
   margin: 0;
@@ -138,6 +142,14 @@ footer {
 footer p {
   margin: 0;
 }
+
+button.botaoenviar{
+  background-color: #EF820A;
+  color: #000;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
 /* Responsividade */
 @media screen and (max-width: 768px) {
   section.hero {
