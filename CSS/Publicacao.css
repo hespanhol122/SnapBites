@@ -1,3 +1,10 @@
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-width: 300px;
+} 
+
 .cor-fundo{
   background-color: #fff;
 }
@@ -25,4 +32,8 @@ footer {
   color: #fff;
   padding: 20px;
   text-align: center;
+}
+
+.image-publi{
+  margin-right: -120px;
 }

@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feed</title>
-    <link rel="stylesheet" href="CSS/Feed.css">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="CSS/Meu_perfil.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="imagens/Icon.svg" />
@@ -21,8 +21,8 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
-<body>
-    <nav class="navbar justify-content-center cor1 fixed-top" style="font-family: 'Space Grotesk', sans-serif">
+<body background="imagens/Plano de fundo desktop.svg" style="font-family: 'Space Grotesk', sans-serif">
+    <nav class="navbar justify-content-center cor1 fixed-top">
         <div class="container-fluid">
             <a href="Feed.html" class="navbar-brand">
                 <img src="imagens/Logo Branca.svg" height="65px" width="65px"
@@ -42,7 +42,7 @@
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
                     <div class="container d-flex align-items-center">
-                        <a class="me-1" href="Meu_perfil.html">
+                        <a class="me-1" href="#">
                             <img src="imagens/account_circle_FILL0_wght400_GRAD0_opsz48.svg" alt="">
                         </a>
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Juninho</h5>
@@ -60,7 +60,7 @@
                                     height="25px" width="25px" alt=""></button>
                         </form>
                         <li class="nav-item mt-3">
-                            <a class="nav-link active" aria-current="page" href="#">Pagina Inicial</a>
+                            <a class="nav-link active" aria-current="page" href="Feed.html">Pagina Inicial</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Publicar.html">Publicar</a>
@@ -70,89 +70,69 @@
             </div>
         </div>
     </nav>
-    <div class="container-lg img-feed">
-
-        <div class="row row-cols-md-4 row-cols-sm-2">
-            <div class="col-sm ">
-                <a href="#">
-                    <img class="image p-2" src="imagens/comida/comida/12.jpg" alt="Imagem 1">
-                </a>
+    <div class="container-lg justify-content-center mb-5">
+        <div class="container cor-fundo rounded" style="width: 95%;">
+            <div class="container-md perfil">
+                <div class="row text-center justify-content-center">
+                    <div>
+                        <img class="mt-3 rounded-circle"
+                            src="imagens/account_circle_FILL0_wght400_GRAD0_opsz48.svg"
+                            alt="" height="200px" width="200px">
+                    </div>
+                    <h1>Claudinho</h1>
+                    <p>5000 Seguidores | 3315 Seguindo</p>
+                    <button class="btn btn-color btn-outline-success justify-content-center btn-lg" type="button"
+                        href="" style="width: 150px;" data-bs-toggle="button" >Seguir</button>
+                </div>
             </div>
-            <div class="col-sm">
-                <a href="#">
-                    <img class="image p-2" src="imagens/comida/comida/13.jpg" alt="Imagem 2">
-                </a>
-            </div>
-            <div class="col-sm">
-                <a href="#">
-                    <img class="image p-2" src="imagens/comida/comida/14.jpg" alt="Imagem 3">
-                </a>
-            </div>
-            <div class="col-sm">
-                <a href="#">
-                    <img class="image p-2" src="imagens/comida/comida/15.jpg" alt="Imagem 4">
-                </a>
-            </div>
-        </div>
-        <div class="row row-cols-md-4 row-cols-sm-2">
-            <div class="col-sm">
-                <a href="#">
-                    <img class="image p-2" src="imagens/comida/comida/16.jpg" alt="Imagem 5">
-                </a>
-            </div>
-            <div class="col-sm">
-                <a href="#">
-                    <img class="image p-2" src="imagens/comida/comida/17.jpg" alt="Imagem 6">
-                </a>
-            </div>
-            <div class="col-sm">
-                <a href="#">
-                    <img class="image p-2" src="imagens/comida/comida/18.jpg" alt="Imagem 7">
-                </a>
-            </div>
-            <div class="col-sm">
-                <a href="#">
-                    <img class="image p-2" src="imagens/comida/comida/19.jpg" alt="Imagem 8">
-                </a>
-            </div>
-        </div>
-        <div class="row row-cols-md-4 row-cols-sm-2">
-            <div class="col-sm">
-                <a href="#">
-                    <img class="image p-2" src="imagens/comida/comida/20.jpg" alt="Imagem 5">
-                </a>
-            </div>
-            <div class="col-sm">
-                <a href="#">
-                    <img class="image p-2" src="imagens/comida/comida/21.jpg" alt="Imagem 6">
-                </a>
-            </div>
-            <div class="col-sm">
-                <a href="#">
-                    <img class="image p-2" src="imagens/comida/comida/22.jpg" alt="Imagem 7">
-                </a>
-            </div>
-            <div class="col-sm">
-                <a href="#">
-                    <img class="image p-2" src="imagens/comida/comida/23.jpg" alt="Imagem 8">
-                </a>
+            <hr class="mt-5 container justify-content-center " style="width: 95%;">
+            <div class="mt-1container-lg img-feed">
+                <div class="row row-cols-md-4 row-cols-sm-2">
+                    <div class="col-sm ">
+                        <a href="#">
+                            <img class="image p-2" src="imagens/comida/comida/24.jpg" alt="Imagem 1">
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="#">
+                            <img class="image p-2" src="imagens/comida/comida/25.jpg" alt="Imagem 2">
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="#">
+                            <img class="image p-2" src="imagens/comida/comida/26.jpg" alt="Imagem 3">
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="#">
+                            <img class="image p-2" src="imagens/comida/comida/27.jpg" alt="Imagem 4">
+                        </a>
+                    </div>
+                </div>
+                <div class="row row-cols-md-4 row-cols-sm-2">
+                    <div class="col-sm">
+                        <a href="#">
+                            <img class="image p-2" src="imagens/comida/comida/28.jpg" alt="Imagem 5">
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="#">
+                            <img class="image p-2" src="imagens/comida/comida/29.jpg" alt="Imagem 6">
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="#">
+                            <img class="image p-2" src="imagens/comida/comida/30.jpg" alt="Imagem 7">
+                        </a>
+                    </div>
+                    <div class="col-sm">
+                        <a href="#">
+                            <img class="image p-2" src="imagens/comida/comida/31.jpg" alt="Imagem 8">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <nav class="paginas mt-5 mb-5" aria-label="Page navigation example">
-            <ul class="pagination pagination-md justify-content-center">
-                <li class="page-item">
-                    <a class="page-link" aria-label="Previous" style="color:black"><span
-                            aria-hidden="true">&laquo;</span></a>
-                </li>
-                <li class="page-item"><a class="page-link" href="Feed.html" style="color:black">1</a></li>
-                <li class="page-item active"><a class="page-link" href="Feed2.html" style="color:black">2</a></li>
-                <li class="page-item"><a class="page-link" href="Feed3.html" style="color:black">3</a></li>
-                <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next" style="color:black"><span
-                            aria-hidden="true">&raquo;</span></a>
-                </li>
-            </ul>
-        </nav>
     </div>
 </body>
 <footer>

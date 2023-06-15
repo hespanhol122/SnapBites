@@ -1,4 +1,9 @@
-
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-width: 300px;
+} 
 
 .cor-fundo{
   background-color: #fff;

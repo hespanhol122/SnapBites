@@ -1,3 +1,9 @@
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-width: 300px;
+} 
 
 .cbc {
   background-color: #1B6607;
@@ -41,13 +47,11 @@ a.btn {
   border-radius: 10px;
   border: none;
 }
+
 footer {
   background-color: #333;
   color: #fff;
-  padding: 27.5px;
+  padding: 20px;
   text-align: center;
-  margin-top: 1rem;
-  bottom: 0;
-  position: fixed;
-  width: 100%;
+  margin-top: 2rem;
 }

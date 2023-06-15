@@ -1,3 +1,14 @@
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-width: 300px;
+} 
+
+html{
+  overflow-y:hidden;
+  }
+
 .btn-color{
     background-color: #EF820A;
     color: #fff;

@@ -4,8 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu perfil</title>
-    <link rel="stylesheet" href="CSS/Meu_perfil.css">
+    <title>Publique sua imagem</title>
+    <link rel="stylesheet" href="CSS/Publicar.css">
+    <script src="js/Publicacao.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="imagens/Icon.svg" />
@@ -15,10 +20,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
         integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
         crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body background="imagens/Plano de fundo desktop.svg" style="font-family: 'Space Grotesk', sans-serif">
@@ -60,74 +63,59 @@
                                     height="25px" width="25px" alt=""></button>
                         </form>
                         <li class="nav-item mt-3">
-                            <a class="nav-link active" aria-current="page" href="Feed.html">Pagina Inicial</a>
+                            <a class="nav-link" aria-current="page" href="Feed.html">Pagina Inicial</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Publicar.html">Publicar</a>
+                            <a class="nav-link active" href="Publicar.html">Publicar</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
-    <div class="container-lg justify-content-center mb-5">
-        <div class="container cor-fundo rounded" style="width: 95%;">
-            <div class="container-md perfil">
-                <div class="row text-center justify-content-center">
-                    <div>
-                        <img class="mt-3 rounded-circle" src="imagens/account_circle_FILL0_wght400_GRAD0_opsz48.svg"
-                            alt="" height="200px" width="200px">
-                    </div>
-                    <h1>Juninho</h1>
-                    <p>5 Seguidores | 335 Seguindo</p>
-                    <a class="btn btn-color btn-dark justify-content-center btn-lg" type="button"
-                        href="Editar_Perfil.html" style="width: 150px;">Editar perfil</a>
-                </div>
+    <div class="container text-start cor-fundo rounded perfil">
+        <div class="row row-cols-sm-1 mb-5">
+            <div class="col-sm-6 mt-3">
+                <img class="img-fluid rounded mb-3 img-publi" src="imagens/alema.jpg" alt="">
             </div>
-            <hr class="mt-5 container justify-content-center " style="width: 95%;">
-            <div class="mt-1container-lg img-feed">
-                <div class="row row-cols-md-4 row-cols-sm-2">
-                    <div class="col-sm ">
-                        <a href="#">
-                            <img class="image p-2" src="imagens/alema.jpg" alt="Imagem 1">
-                        </a>
+            <div class="col-md-6 mt-3">
+                <div class=" row text-center justify-content-center">
+                    <h2 class="mt-3">Adicione um titulo</h2>
+                    <div class="form-floating sm-3">
+                        <input type="Titulo" class="form-control" id="floatingInput" placeholder="Adicione um titulo">
+                        <label for="floatingInput">Titulo</label>
+                      </div>
+                    <div class="container justify-content-center ">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-md-12">
+                                <div class="input-group mt-3">
+                                    <label class="input-group-text" for="inputGroupFile01">Upload</label>
+                                    <input type="file" class="form-control" id="inputGroupFile01">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm">
-                        <a href="#">
-                            <img class="image p-2" src="imagens/comida-italiana.jpg" alt="Imagem 2">
-                        </a>
-                    </div>
-                    <div class="col-sm">
-                        <a href="#">
-                            <img class="image p-2" src="imagens/brasileira.jpg" alt="Imagem 3">
-                        </a>
-                    </div>
-                    <div class="col-sm">
-                        <a href="#">
-                            <img class="image p-2" src="imagens/macarrao.jpg" alt="Imagem 4">
-                        </a>
-                    </div>
-                </div>
-                <div class="row row-cols-md-4 row-cols-sm-2">
-                    <div class="col-sm mb-5">
-                        <a href="#">
-                            <img class="image p-2" src="imagens/comida-mexicana.jpg" alt="Imagem 5">
-                        </a>
-                    </div>
-                    <div class="col-sm mb-5">
-                        <a href="#">
-                            <img class="image p-2" src="imagens/espanha.jpg" alt="Imagem 6">
-                        </a>
-                    </div>
-                    <div class="col-sm mb-5">
-                        <a href="#">
-                            <img class="image p-2" src="imagens/japonesa.jpg" alt="Imagem 7">
-                        </a>
-                    </div>
-                    <div class="col-sm mb-5">
-                        <a href="#">
-                            <img class="image p-2" src="imagens/francesa.jpg" alt="Imagem 8">
-                        </a>
+                    <hr class="mt-5 container justify-content-center " style="width: 95%;">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <div style="height: auto;">
+                                    <div class="">
+                                        <h2>Escreva o conteudo da sua publicação</h2>
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Escreva seu texto" id="floatingTextarea2" style="height: 100px; width: 100%;"></textarea>
+                                            <label for="floatingTextarea2">Texto</label>
+                                          </div>
+                                    </div>  
+                                </div>
+                                <div class="text-center mt-5 mb-5">
+                                    <a class="btn btn-dark justify-content-center btn-lg btn-color" type="button" href="Feed.html"
+                                      style="width: 150px;">Excluir</a>
+                                    <a class="btn btn-dark justify-content-center btn-lg btn-color" type="button" href="Publicacao.html"
+                                      style="width: 150px;">Publicar</a>
+                                  </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
