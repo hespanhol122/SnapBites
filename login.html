@@ -1,93 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="CSS/estilo_login.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="CSS/estilo_login.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="imagens/Icon.svg" />
 </head>
-<body background="imagens/Plano de fundo desktop.svg">   
+
+<body background="imagens/Plano de fundo desktop.svg">
   <section>
-    <div class="container px-4 py-5 px-md-5 text-center text-lg-start my-5">
-      <div class="row gx-lg-5 align-items-center mb-5">
-        <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
+    <div class="container py-5 my-5">
+      <div class="row gx-lg-5">
+        <div class="col-lg-3 mb-5 mb-lg-0" style="z-index: 10">
         </div>
-  
+
         <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
-          <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
-          <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
-  
           <div class="card bg-glass">
             <div class="card-body px-4 py-5 px-md-5">
-                <!-- Caixa branca de fundo -->
-                
-                <div class="container">
-                  <div class="row marcador align-items-center">
-                    <div class="col mx-auto text-center">
-                      <a href="home.html">
-                        <img class="img-responsive" src="imagens/Logo.svg" height="160px" width="160px">
-                      </a>
-                    </div>
+              <!-- Caixa branca de fundo -->
+
+              <div class="container">
+                <div class="row marcador align-items-center">
+                  <div class="col text-center">
+                    <a href="home.html">
+                      <img class="img-responsive" src="imagens/Logo.svg" height="200px" width="200px">
+                    </a>
                   </div>
                 </div>
-                
-                <div class="row">
-                  <div class="col-md-6 mb-4">
-                  <div class="col-md-6 mb-4">
-                    <div class="form-outline">
-                    </div>
-                  </div>
-                </div>
-  
-                <!-- Email -->
-                <div class="form-outline mb-4">
-                  <input type="email" id="form3Example3" class="form-control" />
-                  <label class="form-label" for="form3Example3">Usuário</label>
-                </div>
-  
-                <!-- Senha -->
-                <div class="form-outline mb-4">
-                  <input type="password" id="form3Example4" class="form-control" />
-                  <label class="form-label" for="form3Example4">Senha</label>
+              </div>
+
+              <div class="row ">
+                <div class="col-md-6 mb-4">
                 </div>
 
-                <div class="form-outline mb-4">
+                <!-- Email -->
+                <div class="input-group mb-4">
+                  <span class="input-group-text">@</span>
+                <div class="form-floating">
+                  <input type="email" id="form3Example3" class="form-control" placeholder="nome@exemplo.com"/>
+                  <label for="form3Example3">E-mail</label>
+                </div>
+                </div>
+
+                <!-- Senha -->
+                <div class="input-group mb-4">
+                  <span class="input-group-text"><img src="imagens/lock_FILL0_wght400_GRAD0_opsz48.svg" alt="" width="17px" height="17px"></span>
+                <div class="form-floating">
+                  <input type="password" id="form3Example4" class="form-control" placeholder="Digite sua Senha"/>
+                  <label for="form3Example4">Senha</label>
+                </div>
+                </div>
+
+                <div class="form-outline text-center mb-5">
                   <label class="btn-link btn-floating mx-1" for="form3Example4">Esqueceu a senha?</label>
                   <a href="cadastro.html" class="btn-link btn-floating mx-1" for="form3Example4">Cadastre-se</a>
                 </div>
 
                 <!-- Botão de entrar -->
                 <div class="text-center">
-                  <a class="btn btn-primary btn-color" type="button" href="feed.html">Entrar</a>
+                  <a class="btn btn-dark justify-content-center btn-lg btn-color" type="button" href="home.html"
+                    style="width: 150px;">Voltar</a>
+                  <a class="btn btn-dark justify-content-center btn-lg btn-color" type="button" href="feed.html"
+                    style="width: 150px;">Entrar</a>
                 </div>
-                <div class="form-outline mb-4"></div>
-  
-                <!-- Outras opções de login -->
-                <!-- <div class="text-center">
-                  <p>Entre com:</p>
-
-                  <button type="button" class="btn btn-link btn-floating mx-1">
-                    <i class="fab fa-facebook-f"></i>
-                  </button>
-  
-                  <button type="button" class="btn btn-link btn-floating mx-1">
-                    <i class="fab fa-google"></i>
-                  </button>
-  
-                  <button type="button" class="btn btn-link btn-floating mx-1">
-                    <i class="fab fa-twitter"></i>
-                </div> -->
-              </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   </section>
 </body>
+
 </html>

@@ -1,7 +1,7 @@
 
 
-button {
-  all: unset;
+.cor-fundo{
+  background-color: #fff;
 }
 
 .cor1 {
@@ -10,6 +10,10 @@ button {
 
 .img-feed {
   margin-top: 70px;
+}
+
+.perfil{
+  margin-top: 80px;
 }
 
 .image {

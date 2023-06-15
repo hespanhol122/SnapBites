@@ -1,9 +1,11 @@
 .btn-color{
-    background-color: #0C9900;
-    border-color: #0C9900;
-}
+    background-color: #EF820A;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+  }
 
 .bg-glass {
-    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    background-color: #fff(0, 0%, 100%, 0.9) !important;
     backdrop-filter: saturate(200%) blur(25px);
 }

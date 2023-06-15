@@ -27,7 +27,7 @@ label {
   cursor: pointer;
 }
 
-img {
+label img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -36,7 +36,7 @@ img {
 }
 
 a.btn {
-  background-color: #ff4500;
+  background-color: #EF820A;
   color: #fff;
   border-radius: 10px;
   border: none;
@@ -47,4 +47,7 @@ footer {
   padding: 27.5px;
   text-align: center;
   margin-top: 1rem;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }

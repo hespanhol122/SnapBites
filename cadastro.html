@@ -11,75 +11,82 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/estilo_cadastro.css" type="text/css" />
     <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="icon" type="image/png" href="imagens/Icon.svg"/>
 </head>
 
 <body background="imagens/Plano de fundo desktop.svg">
-    <div class="container px-1 py-2 px-md-5 text-center text-lg-start my-5">
-        <div class="row gx-lg-5 align-items-center mb-5">
-            <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
-            </div>
-
-            <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
-                <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
-                <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
-
-                <div class="card bg-glass">
-                    <div class="card-body px-4 py-5 px-md-5">
-
-                        <!-- Caixa branca de fundo -->
-                        <div class="container">
-                            <div class="row marcador align-items-center">
-                                <div class="col mx-auto text-center">
-                                    <a href="home.html">
-                                        <img class="img-responsive" src="imagens/Logo.svg" height="160px" width="160px">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-6 mb-1">
-                                <div class="col-md-6 mb-1">
-                                    <div class="form-outline">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Nome -->
-                            <div class="form-outline mb-4">
-                                <input type="email" id="form3Example3" class="form-control" />
-                                <label class="form-label" for="form3Example3">Nome Completo</label>
-                            </div>
-
-                            <!-- E-mail -->
-                            <div class="form-outline mb-4">
-                                <input type="password" id="form3Example4" class="form-control" />
-                                <label class="form-label" for="form3Example4">E-mail</label>
-                            </div>
-
-                            <!-- Senha -->
-                            <div class="form-outline mb-4">
-                                <input type="email" id="form3Example3" class="form-control" />
-                                <label class="form-label" for="form3Example3">Crie sua senha</label>
-                            </div>
-
-                            <!-- Confirme Senha -->
-                            <div class="form-outline mb-4">
-                                <input type="email" id="form3Example3" class="form-control" />
-                                <label class="form-label" for="form3Example3">Repita a senha</label>
-                            </div>
-
-                            <!-- Botão de Cadastrar-se -->
-                            <div class="text-center">
-                                <a class="btn btn-primary btn-color" href="Interesses.html" type="button">Cadastrar-se</a>
-                            </div>
-                            <div class="form-outline mb-"></div>
-                        </div>
+    <section>
+      <div class="container py-5 my-5">
+        <div class="row gx-lg-5">
+          <div class="col-lg-3 mb-5 mb-lg-0" style="z-index: 10">
+          </div>
+  
+          <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
+            <div class="card bg-glass">
+              <div class="card-body px-4 py-5 px-md-5">
+                <!-- Caixa branca de fundo -->
+  
+                <div class="container">
+                  <div class="row marcador align-items-center">
+                    <div class="col text-center">
+                      <a href="home.html">
+                        <img class="img-responsive" src="imagens/Logo.svg" height="150px" width="150px">
+                      </a>
                     </div>
+                  </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</body>
+  
+                <div class="row ">
+                  <div class="col-md-6 mb-2">
+                  </div>
+  
+                  <!-- Email -->
+                  <div class="input-group mb-4">
+                    <span class="input-group-text">@</span>
+                  <div class="form-floating">
+                    <input type="email" id="form3Example1" class="form-control" placeholder="Digite seu usuario"/>
+                    <label for="form3Example1">Nome de usuário</label>
+                  </div>
+                  </div>
 
+                  <div class="input-group mb-4">
+                    <span class="input-group-text"><img src="imagens/mail_FILL0_wght400_GRAD0_opsz48.svg" alt="" width="17px" height="17px"></span>
+                  <div class="form-floating">
+                    <input type="email" id="form3Example2" class="form-control" placeholder="nome@exemplo.com"/>
+                    <label for="form3Example2">E-mail</label>
+                  </div>
+                  </div>
+
+                  <div class="input-group mb-4">
+                    <span class="input-group-text"><img src="imagens/lock_FILL0_wght400_GRAD0_opsz48.svg" alt="" width="17px" height="17px"></span>
+                  <div class="form-floating">
+                    <input type="email" id="form3Example3" class="form-control" placeholder="Digite sua senha"/>
+                    <label for="form3Example3">Senha</label>
+                  </div>
+                  </div>
+  
+                  <!-- Senha -->
+                  <div class="input-group mb-4">
+                    <span class="input-group-text"><img src="imagens/lock_FILL0_wght400_GRAD0_opsz48.svg" alt="" width="17px" height="17px"></span>
+                  <div class="form-floating">
+                    <input type="password" id="form3Example4" class="form-control" placeholder="Confirme sua senha"/>
+                    <label for="form3Example4">Confirme sua senha</label>
+                  </div>
+                  </div>
+  
+  
+                  <!-- Botão de entrar -->
+                  <div class="text-center">
+                    <a class="btn btn-dark justify-content-center btn-lg btn-color" type="button" href="login.html"
+                      style="width: 150px;">Voltar</a>
+                    <a class="btn btn-dark justify-content-center btn-lg btn-color" type="button" href="Interesses.html"
+                      style="width: 150px;">Cadastre-se</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </body>
 </html>

@@ -1,0 +1,29 @@
+.btn-color{
+  background-color: #EF820A;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+
+.cor-fundo{
+  background-color: #fff;
+}
+
+.cor1 {
+  background-color: #1B6607;
+}
+.perfil{
+  margin-top: 70px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 27.5px;
+  text-align: center;
+  margin-top: 1rem;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}

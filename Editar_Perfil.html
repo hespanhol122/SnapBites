@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu perfil</title>
+    <link rel="stylesheet" href="CSS/Editar_perfil.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="imagens/Icon.svg" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+</head>
+
+<body background="imagens/Plano de fundo desktop.svg">
+    <nav class="navbar justify-content-center cor1 fixed-top">
+        <div class="container-fluid">
+            <a href="home.html" class="navbar-brand">
+                <img src="imagens/Logo Branca.svg" height="65px" width="65px"
+                    style="margin-top: -15px;  margin-bottom: -15px;">
+            </a>
+            <div class="d-flex justify-content-center" style="width: 50%;">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"
+                    style="width: 50%;">
+                <button class="btn btn-light" type="submit"><img src="imagens/Bt-Search.svg" height="25px" width="25px"
+                        alt=""></button>
+            </div>
+            <button class="navbar-toggler btn btn-secondary " type="submit" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="background-color: #fff;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <div class="container d-flex align-items-center">
+                        <a class="me-1" href="Meu_perfil.html">
+                            <img src="imagens/account_circle_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+                        </a>
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Juninho</h5>
+                    </div>
+                    <div class="">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                </div>
+                <hr class="mb-1 container justify-content-center " style="width: 95%;">
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1">
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit"><img src="imagens/Bt-Search.svg"
+                                    height="25px" width="25px" alt=""></button>
+                        </form>
+                        <li class="nav-item mt-3">
+                            <a class="nav-link active" aria-current="page" href="Feed.html">Pagina Inicial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Publicacao.html">Publicar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container justify-content-center mb-5">
+        <div class="container cor-fundo rounded" style="width: 95%;">
+            <div class="container perfil">
+                <div class=" row text-center justify-content-center">
+                    <h1 class="mt-3">Altere seu perfil</h1>
+                    <div class="container justify-content-center ">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-md-3">
+                                <img class="mt-3 rounded-circle"
+                                    src="imagens/jocione-mendonca-o-jailson-mendes-que-conquistou-o-coracao-da-internet-1477094064512_v2_450x600.jpg"
+                                    alt="" height="200px" width="200px">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-group mt-3">
+                                    <label class="input-group-text" for="inputGroupFile01">Upload</label>
+                                    <input type="file" class="form-control" id="inputGroupFile01">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="mt-5 container justify-content-center " style="width: 95%;">
+                    <div class="container-fluid text-center">
+                        <div class="row justify-content-center">
+
+                            <div class="col-md-8">
+                                <div class="input-group mt-4 mb-4">
+                                    <span class="input-group-text">@</span>
+                                    <div class="form-floating">
+                                        <input value="Jailsinho" type="email" id="form3Example1" class="form-control"
+                                            placeholder="Digite seu usuario" />
+                                        <label for="form3Example1">Nome do usuario</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="input-group mb-4">
+                                    <span class="input-group-text"><img
+                                            src="imagens/mail_FILL0_wght400_GRAD0_opsz48.svg" alt="" width="17px"
+                                            height="17px"></span>
+                                    <div class="form-floating">
+                                        <input type="email" value="Jailson_mendes123@gmail.com" id="form3Example2"
+                                            class="form-control" placeholder="nome@exemplo.com" />
+                                        <label for="form3Example2">E-mail</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-8">
+                                <div class="input-group mb-4">
+                                    <span class="input-group-text"><img
+                                            src="imagens/lock_FILL0_wght400_GRAD0_opsz48.svg" alt="" width="17px"
+                                            height="17px"></span>
+                                    <div class="form-floating">
+                                        <input type="text" value="sucodelaranja123" id="form3Example3"
+                                            class="form-control" placeholder="Digite sua senha" />
+                                        <label for="form3Example3">Senha</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Senha -->
+                            <div class="col-md-8">
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text"><img
+                                            src="imagens/lock_FILL0_wght400_GRAD0_opsz48.svg" alt="" width="17px"
+                                            height="17px"></span>
+                                    <div class="form-floating">
+                                        <input type="text" value="sucodelaranja123" id="form3Example4"
+                                            class="form-control" placeholder="Confirme sua senha" />
+                                        <label for="form3Example4">Confirme sua senha</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-2">
+                        <button class="btn btn-color btn-dark justify-content-center btn-lg me-2" type="button"
+                            href="Interesses.html" style="width: 150px;">Restaurar</button>
+                        <button class="btn btn-color btn-dark justify-content-center btn-lg" type="button"
+                            href="Interesses.html" style="width: 150px;">Salvar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <p>&copy; 2023 SnapBites. Todos os direitos reservados.</p>
+</footer>
+
+</html>
